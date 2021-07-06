@@ -1,6 +1,26 @@
 body{
     margin: 0;
 }
+
+.nav-ul{
+    display: flex;
+    background-color: gray;
+    
+    align-items: center;
+    justify-content: center;
+
+}
+li a:hover{
+    background-color: black;
+    border-radius: 10px;
+}
+.nav-a{
+    color: orange;
+    font-weight: 600;
+    text-decoration: none;
+    display: block;
+    padding: 20px;
+}
 .flex-container{
     display: flex;
     padding: 2%;
